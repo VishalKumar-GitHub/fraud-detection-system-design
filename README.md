@@ -1,14 +1,15 @@
 # fraud-detection-system-design
+<img width="860" height="758" alt="architecture_animated" src="https://github.com/user-attachments/assets/bc69abf3-b7ae-47ae-bfec-ee8ec8a90a19" />
+
 
 An end-to-end, runnable ML system design for detecting counterfeit products on
-an e-commerce platform — built as interview-ready reference code, structured
-the way you'd actually narrate it in a system design round.
+an e-commerce platform — I built a reference code, structured system design.
 
 Covers the full lifecycle: business framing → North Star / guardrail metrics →
 architecture → feature engineering → model ladder → evaluation →
 **guardrail-driven threshold selection** → risk tiering.
 
-![Architecture diagram](docs/images/architecture.png)
+![Architecture diagram](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/architecture.png)
 
 ## Why this exists
 
@@ -78,7 +79,7 @@ Auto-remove  Manual review   Keep live
         +----> feeds back into model retraining
 ```
 
-See [`docs/images/architecture.png`](docs/images/architecture.png) for the
+See [`docs/images/architecture.png`](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/architecture.png) for the
 full diagram with the feedback loop.
 
 ## Pipeline — 7 steps
@@ -101,7 +102,7 @@ dumping a single monolithic script.
 ### What's *discussed*, not coded
 
 These require live infrastructure, so they're talking points rather than
-runnable code — and interviewers want to hear you reason through them anyway:
+runnable code:
 
 - **Online A/B experimentation** — control (existing approach) vs. treatment
   (new model), null/alternative hypothesis, significance level, p-value,
@@ -122,21 +123,8 @@ runnable code — and interviewers want to hear you reason through them anyway:
 | **Category** | Demand level, average value, counterfeit susceptibility, ease of replication, category return/incident rate |
 | **Context** | Seasonal trend flag (counterfeit activity rises during sales periods) |
 
-## Getting started
 
-```bash
-git clone https://github.com/<your-username>/counterfeit-fraud-detection.git
-cd counterfeit-fraud-detection
-pip install -r requirements.txt
-```
-
-### Run the full pipeline at once
-
-```bash
-python run_pipeline.py
-```
-
-### Or run step by step (recommended for interview prep)
+### Run step by step
 
 ```bash
 python src/step1_simulate_data.py
