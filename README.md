@@ -1,6 +1,4 @@
 # fraud-detection-system-design
-<img width="860" height="758" alt="architecture_animated" src="https://github.com/user-attachments/assets/bc69abf3-b7ae-47ae-bfec-ee8ec8a90a19" />
-
 
 An end-to-end, runnable ML system design for detecting counterfeit products on
 an e-commerce platform — I built a reference code, structured system design.
@@ -9,7 +7,7 @@ Covers the full lifecycle: business framing → North Star / guardrail metrics �
 architecture → feature engineering → model ladder → evaluation →
 **guardrail-driven threshold selection** → risk tiering.
 
-![Architecture diagram](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/architecture.png)
+<img width="860" height="758" alt="architecture_animated" src="https://github.com/user-attachments/assets/f147d9f9-5608-4e12-ac51-171e306e2a72" />
 
 ## Why this exists
 
