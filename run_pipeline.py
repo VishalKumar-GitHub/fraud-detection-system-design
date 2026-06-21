@@ -6,8 +6,8 @@ Equivalent to running each step manually:
     python src/step2_feature_engineering.py
     ... etc
 
-Use this for a full end-to-end run. For an interview walkthrough, run the
-step*.py files individually instead, so you can narrate each stage.
+Use this for a full end-to-end run. For a daily working walkthrough, run the
+step*.py files individually instead, so you can control each stage.
 """
 
 import subprocess
