@@ -1,7 +1,7 @@
 """
 STEP 7: RISK TIERING + FINAL TEST EVALUATION
 ===============================================
-INTERVIEW TALKING POINT:
+TALKING POINT:
 "This maps directly to the architecture diagram: the model doesn't make
 a binary keep/remove decision -- it assigns each product to a risk tier:
   - auto_remove   (very high risk, e.g. proba >= 0.85): pulled immediately
