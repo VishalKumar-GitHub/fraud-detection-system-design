@@ -1,7 +1,7 @@
 """
 STEP 2: FEATURE ENGINEERING
 =============================
-INTERVIEW TALKING POINT:
+TALKING POINT:
 "Now that I have raw entity-level data, I need to prepare it for modeling.
 The categorical feature here is 'category' -- I one-hot encode it. I keep
 product_id and seller_id around for now but EXCLUDE them from the actual
