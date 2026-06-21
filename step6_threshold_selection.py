@@ -1,9 +1,8 @@
 """
 STEP 6: BUSINESS-DRIVEN THRESHOLD SELECTION
 ==============================================
-INTERVIEW TALKING POINT -- THIS IS THE KEY DIFFERENTIATOR FOR A SENIOR ANSWER:
-"A junior answer stops at 'pick the model with the best F1.' A senior
-answer ties the threshold choice back to the GUARDRAIL METRICS defined
+TALKING POINT:
+"As junior stops at 'pick the model with the best F1.' As senior ties the threshold choice back to the GUARDRAIL METRICS defined
 at the start of the design: genuine-product upload rate and seller churn
 rate must stay flat. That means whatever I auto-remove must be done with
 HIGH PRECISION -- I cannot afford to wrongly ban good sellers.
