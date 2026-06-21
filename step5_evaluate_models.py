@@ -1,7 +1,7 @@
 """
 STEP 5: MODEL EVALUATION
 ===========================
-INTERVIEW TALKING POINT:
+TALKING POINT:
 "I evaluate on the VALIDATION set (never the test set yet -- that's
 reserved for the final unbiased check). For a fraud problem, accuracy is
 a misleading metric because of class imbalance -- a model that predicts
