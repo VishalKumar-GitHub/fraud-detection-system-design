@@ -1,7 +1,7 @@
 """
 STEP 1: DATA INGESTION (simulated)
 ===================================
-INTERVIEW TALKING POINT:
+TALKING POINT:
 "In production, this data wouldn't be simulated -- it would come from
 joining the product catalog DB, seller DB, returns/refund event logs,
 a review-sentiment microservice, and an image-similarity service that
