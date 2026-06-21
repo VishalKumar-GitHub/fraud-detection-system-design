@@ -1,7 +1,7 @@
 """
 STEP 4: MODEL TRAINING
 =========================
-INTERVIEW TALKING POINT:
+TALKING POINT:
 "I follow a model ladder: start simple, then add complexity only if it
 earns its keep.
   1. Logistic Regression -- fast, interpretable baseline. Good for
