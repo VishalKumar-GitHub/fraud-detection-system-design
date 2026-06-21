@@ -1,4 +1,4 @@
-# Counterfeit goods fraud detection — ML system design
+# fraud-detection-system-design
 
 An end-to-end, runnable ML system design for detecting counterfeit products on
 an e-commerce platform — built as interview-ready reference code, structured
@@ -209,3 +209,10 @@ counterfeit-fraud-detection/
 
 MIT — use freely for interview prep, learning, or as a starting point for
 your own system design writeups.
+
+## About Me
+
+**Vishal Kumar**
+- [GitHub](https://github.com/VishalKumar-GitHub)
+
+📫 **Follow me** on [Xing](https://www.xing.com/profile/Vishal_Kumar055381/web_profiles?expandNeffi=true) | [LinkedIn](https://www.linkedin.com/in/vishal-kumar-819585275/)
