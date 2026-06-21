@@ -89,13 +89,13 @@ dumping a single monolithic script.
 
 | Step | Script | What it demonstrates |
 |---|---|---|
-| 1 | [`step1_simulate_data.py`](src/step1_simulate_data.py) | Data sources: catalog, seller, returns, image-similarity service |
-| 2 | [`step2_feature_engineering.py`](src/step2_feature_engineering.py) | Translating entities (product/seller/category/context) into features |
-| 3 | [`step3_train_test_split.py`](src/step3_train_test_split.py) | Stratified split, class imbalance awareness |
-| 4 | [`step4_train_models.py`](src/step4_train_models.py) | Model ladder: logistic regression → random forest → gradient boosting |
-| 5 | [`step5_evaluate_models.py`](src/step5_evaluate_models.py) | Correct metrics for imbalanced fraud problems (not accuracy) |
-| 6 | [`step6_threshold_selection.py`](src/step6_threshold_selection.py) | **The senior-level differentiator** — threshold chosen against a precision guardrail, not just best F1 |
-| 7 | [`step7_risk_tiering_and_test_eval.py`](src/step7_risk_tiering_and_test_eval.py) | Mapping scores to auto-remove / manual-review / keep tiers + final unbiased test evaluation |
+| 1 | [`step1_simulate_data.py`](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step1_simulate_data.py) | Data sources: catalog, seller, returns, image-similarity service |
+| 2 | [`step2_feature_engineering.py`](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step2_feature_engineering.py) | Translating entities (product/seller/category/context) into features |
+| 3 | [`step3_train_test_split.py`](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step3_train_test_split.py) | Stratified split, class imbalance awareness |
+| 4 | [`step4_train_models.py`](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step4_train_models.py) | Model ladder: logistic regression → random forest → gradient boosting |
+| 5 | [`step5_evaluate_models.py`](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/tep5_evaluate_models.py) | Correct metrics for imbalanced fraud problems (not accuracy) |
+| 6 | [`step6_threshold_selection.py`](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step6_threshold_selection.py) | **The senior-level differentiator** — threshold chosen against a precision guardrail, not just best F1 |
+| 7 | [`step7_risk_tiering_and_test_eval.py`](https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step7_risk_tiering_and_test_eval.py) | Mapping scores to auto-remove / manual-review / keep tiers + final unbiased test evaluation |
 
 ### What's *discussed*, not coded
 
@@ -125,13 +125,13 @@ runnable code:
 ### Run step by step
 
 ```bash
-python src/step1_simulate_data.py
-python src/step2_feature_engineering.py
-python src/step3_train_test_split.py
-python src/step4_train_models.py
-python src/step5_evaluate_models.py
-python src/step6_threshold_selection.py
-python src/step7_risk_tiering_and_test_eval.py
+python https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step1_simulate_data.py
+python https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step2_feature_engineering.py
+python https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step3_train_test_split.py
+python https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step4_train_models.py
+python https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step5_evaluate_models.py
+python https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step6_threshold_selection.py
+python https://github.com/VishalKumar-GitHub/fraud-detection-system-design/blob/main/step7_risk_tiering_and_test_eval.py
 ```
 
 Each script prints its own results and saves intermediate output to `data/`.
