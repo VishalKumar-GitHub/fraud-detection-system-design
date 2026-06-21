@@ -1,7 +1,7 @@
 """
 STEP 3: TRAIN / VALIDATION / TEST SPLIT
 ==========================================
-INTERVIEW TALKING POINT:
+TALKING POINT:
 "The label is imbalanced -- only ~15% of products are counterfeit, which
 mirrors real platforms where counterfeit incidence is a minority class.
 I use STRATIFIED splitting so train/val/test all preserve that same class
